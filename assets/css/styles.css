@@ -1,0 +1,15 @@
+.carousel {
+    max-width: 895px;
+    margin: 0px auto;
+}
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+.container{
+    height: 700px;
+    width: 800px;
+}
+body{
+    background-color: #A0522D;
+}

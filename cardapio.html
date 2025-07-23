@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Café Labyrinth</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/cardapio.css">
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+  <!-- Início da Barra de navegação-->
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src=assets/images/1547919.png alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      Café Labyrinth
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cardapio.html">Cardapio</a>
+        </li>
+        
+    </div>
+  </div>
+</nav>
+    </header>
+  <!-- Fim da Barra de navegação -->
+  <!-- Ínicio do Label-->
+  <main>
+    <div class="container d-flex justify-content-center align-items-center">
+<div class="form-floating mb-3 w-100">
+    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingInput">Buscar</label>
+    </div>
+    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  +
+</button>
+    </div>
+    
+  </main>
+  <!-- Fim do Label -->
+  
+  <!-- Ínicio do Modal-->
+   <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Cadastrar Item</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Preço</th>
+      <th scope="col">Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th scope="row">...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th scope="row">...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+  <!-- Ínicio do Footer -->
+   <div class="wrapper">
+   <footer class="container-fluid text-white bg-dark">
+    <div class="row pt-5 pb-5">
+        <section class="col-md-5">
+            <h5><img src=assets/images/1547919.png alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+
+                Labyrinth Coffee
+            </h5>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="cardapio.html" class="nav-link">Cardapio</a>
+                </li>
+                
+            </ul>
+        </section>
+        <section class="col-md-5">
+            <h5>Contato</h5>
+            <ul>
+                <li><a class="nav-link text-white" href="tel:+5583111111111">Tel: (83) 9 9999-9999</a></li>
+                <li><a class="nav-link text-white" href=https://wa.me/5583999999999?text=Quero%20fazer%20um%20pedido! target="_blank">WhatsApp: (83) 9 9999-9999</a></li>
+            </ul>
+        </section>
+        <section>
+            <a class="nav-link text-white" href="#">Voltar ao topo!</a>
+        </section>
+    </div>
+   </footer>
+   </div>
+    <script src="src/scripts.js"></script>
+  </body>
+</html>
